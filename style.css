@@ -192,7 +192,7 @@ body main .titulo-produto-destaque{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 40px;
     color: #000000;
 }
 body main .botao-produto-destaque{
@@ -202,7 +202,7 @@ body main .botao-produto-destaque{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 40px;
     color: #FFFFFF;
     border: 0;
 }
@@ -210,7 +210,7 @@ body main .botao-home{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 40px;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -230,7 +230,7 @@ body main .imagem-produto-destaque2{
     align-self: flex-end;
 }
 /* Seção Footer */
-body main .footer{
+body .footer{
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -240,18 +240,18 @@ body main .footer{
     height: 248px;
     background: #C2185B;
 }
-body main .footer-infos1{
+body footer .footer-infos1{
     width: 40%;
     padding-right: 5%;
 }
-body main .footer-infos2{
+body footer .footer-infos2{
     margin-top: 40px;
 }
-body main .footer-infos3{
+body footer .footer-infos3{
     margin-top: 40px;
 
 }
-body main .img-footer{
+body footer .img-footer{
     display: flex;
     justify-self: flex-start;
     align-self: center;
@@ -259,13 +259,13 @@ body main .img-footer{
     margin-left: 0px;
     margin-bottom: -10px;
 }
-body main .infos-footer{
+body footer .infos-footer{
     display: flex;
     align-self: flex-start;
     font-size: 16px;
     color: white;
 }
-body main .titulo-footer{
+body footer .titulo-footer{
     display: flex;
     align-self: center;
     color: white;
@@ -274,7 +274,7 @@ body main .titulo-footer{
     font-size: 20px;
 
 }
-body main .lista-footer{
+body footer .lista-footer{
     list-style-type: none;
     font-family: 'Open Sans';
     font-style: normal;
